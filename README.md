@@ -1,3 +1,3 @@
 # JavaScript
 
-Source code examples in JavaScript using the jQuery library
+Source code examples in JavaScript using the jQuery library.
