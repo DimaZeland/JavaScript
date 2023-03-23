@@ -1,6 +1,6 @@
 # JavaScript
 
-🧩 Source code examples in JavaScript using the jQuery library
+🧩 JavaScript source code examples using the jQuery library
 
 ## 📚 Contents
 
