@@ -1,44 +1,45 @@
 <!DOCTYPE html>
 <html>
 <head>
-<meta charset="UTF-8">
-<title>Easing пример I</title>
-<link href="../_css/site.css" rel="stylesheet">
-<style>
-#animate {
-	width: 200px;
-	height: 200px;
-	background-color: tomato;
-	padding: 20px;
-}
-#animate p {
-	color: black;	
-}
-</style>
-<script src="../_js/jquery.min.js"></script>
-<script src="../_js/jquery-ui.min.js"></script>
-<script>
-$(document).ready(function() {
-  $('#animate').click(function() {
-	  $(this).animate(
-	  {
-		  width: '400px',
-		  height: '400px'
-	  }, 1000,
-	  'easeInBounce'); // end animate
-  }); // end click
-}); // end ready
-</script>
+    <meta charset="UTF-8">
+    <title>Easing пример I</title>
+    <link href="../_css/site.css" rel="stylesheet">
+    <style>
+        #animate {
+            width: 200px;
+            height: 200px;
+            background-color: tomato;
+            padding: 20px;
+        }
+
+        #animate p {
+            color: black;
+        }
+    </style>
+    <script src="../_js/jquery.min.js"></script>
+    <script src="../_js/jquery-ui.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $('#animate').click(function () {
+                $(this).animate(
+                    {
+                        width: '400px',
+                        height: '400px'
+                    }, 1000,
+                    'easeInBounce'); // end animate
+            }); // end click
+        }); // end ready
+    </script>
 </head>
 <body>
 <div class="wrapper">
 
-<div class="content">
-	<div class="main">
-<h1>Easing пример I</h1>
-<div id="animate"><p>Щелкни по мне!</p></div>
-</div>
-</div>
+    <div class="content">
+        <div class="main">
+            <h1>Easing пример I</h1>
+            <div id="animate"><p>Щелкни по мне!</p></div>
+        </div>
+    </div>
 
 </div>
 </body>

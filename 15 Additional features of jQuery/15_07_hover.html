@@ -1,55 +1,55 @@
 <!DOCTYPE html>
 <html>
 <head>
-<meta charset="UTF-8">
-<title>Использование функций .prevAll() и .nextAll()</title>
-<link href="../_css/site.css" rel="stylesheet">
-<style>
-.button {
-	width: 40px;
-	height: 40px;
-	background-color: grey;
-	float: left;	
-	margin-right: 20px;
-}
-</style>
-<script src="../_js/jquery.min.js"></script>
-<script>
-$(document).ready(function() {
-  $('.button').mouseover(function() {
-	  var $this=$(this)
-	  $this.siblings('.button').css('backgroundColor','grey');
-	  $this.prevAll('.button').stop(true,true).fadeTo(250,.5);
-	  $this.nextAll('.button').stop(true,true).fadeTo(250,1);
-	  $this.css({
-		  'backgroundColor':'red',
-		  'opacity' : 1
-	  });
-  }); // end mouseOver
-}); // end ready
-</script>
+    <meta charset="UTF-8">
+    <title>Использование функций .prevAll() и .nextAll()</title>
+    <link href="../_css/site.css" rel="stylesheet">
+    <style>
+        .button {
+            width: 40px;
+            height: 40px;
+            background-color: grey;
+            float: left;
+            margin-right: 20px;
+        }
+    </style>
+    <script src="../_js/jquery.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $('.button').mouseover(function () {
+                var $this = $(this)
+                $this.siblings('.button').css('backgroundColor', 'grey');
+                $this.prevAll('.button').stop(true, true).fadeTo(250, .5);
+                $this.nextAll('.button').stop(true, true).fadeTo(250, 1);
+                $this.css({
+                    'backgroundColor': 'red',
+                    'opacity': 1
+                });
+            }); // end mouseOver
+        }); // end ready
+    </script>
 </head>
 <body>
 <div class="wrapper">
 
-	<div class="content">
-	  <div class="main">
-	    <h1>Использование функций .prevAll и .nextAll()</h1>
-        <p>Щелкните по одному из квадратов</p>
-           <div class="button"></div>
-           <div class="button"></div>
-           <div class="button"></div>
-           <div class="button"></div>
-           <div class="button"></div>
-           <div class="button"></div>
-           <div class="button"></div>
-           <div class="button"></div>
-           <div class="button"></div>
-           <div class="button"></div>
-           <div class="button"></div>
-           
-	  </div>
-  </div>
+    <div class="content">
+        <div class="main">
+            <h1>Использование функций .prevAll и .nextAll()</h1>
+            <p>Щелкните по одному из квадратов</p>
+            <div class="button"></div>
+            <div class="button"></div>
+            <div class="button"></div>
+            <div class="button"></div>
+            <div class="button"></div>
+            <div class="button"></div>
+            <div class="button"></div>
+            <div class="button"></div>
+            <div class="button"></div>
+            <div class="button"></div>
+            <div class="button"></div>
+
+        </div>
+    </div>
 
 </div>
 </body>

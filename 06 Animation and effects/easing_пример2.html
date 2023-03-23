@@ -1,55 +1,56 @@
 <!DOCTYPE html>
 <html>
 <head>
-<meta charset="UTF-8">
-<title>Easing пример II</title>
-<link href="../_css/site.css" rel="stylesheet">
-<style>
-#animate {
-	width: 200px;
-	height: 200px;
-	background-color: tomato;
-	padding: 20px;
-}
-#animate p {
-	color: black;	
-}
-</style>
-<script src="../_js/jquery.min.js"></script>
-<script src="../_js/jquery-ui.min.js"></script>
-<script>
-$(document).ready(function() {
- $('#animate').click(function() {
- 	$this = $(this);
- 	if ($this.data('click') === 'even') {
- 		$this.data('click','odd')
- 		$this.animate({
-		 width: '200px',
-		 height: '200px' 
-     	},1000,
-	 	'easeInOutSine'); // end animate
- 	} else {
- 		$this.data('click','even');
- 		$this.animate({
-			width: '400px',
-			height: '400px' 
-     	},1000,
-	 	'easeInBounce'); // end animate
+    <meta charset="UTF-8">
+    <title>Easing пример II</title>
+    <link href="../_css/site.css" rel="stylesheet">
+    <style>
+        #animate {
+            width: 200px;
+            height: 200px;
+            background-color: tomato;
+            padding: 20px;
+        }
 
- 	}
- }); // end click
-}); // end ready
-</script>
+        #animate p {
+            color: black;
+        }
+    </style>
+    <script src="../_js/jquery.min.js"></script>
+    <script src="../_js/jquery-ui.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $('#animate').click(function () {
+                $this = $(this);
+                if ($this.data('click') === 'even') {
+                    $this.data('click', 'odd')
+                    $this.animate({
+                            width: '200px',
+                            height: '200px'
+                        }, 1000,
+                        'easeInOutSine'); // end animate
+                } else {
+                    $this.data('click', 'even');
+                    $this.animate({
+                            width: '400px',
+                            height: '400px'
+                        }, 1000,
+                        'easeInBounce'); // end animate
+
+                }
+            }); // end click
+        }); // end ready
+    </script>
 </head>
 <body>
 <div class="wrapper">
 
-<div class="content">
-	<div class="main">
-<h1>Easing пример II</h1>
-<div id="animate"><p>Щелкни по мне!</p></div>
-</div>
-</div>
+    <div class="content">
+        <div class="main">
+            <h1>Easing пример II</h1>
+            <div id="animate"><p>Щелкни по мне!</p></div>
+        </div>
+    </div>
 
 </div>
 </body>
