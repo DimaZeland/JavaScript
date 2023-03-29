@@ -2,6 +2,19 @@
 
 🧩 JavaScript source code examples using the jQuery library
 
+### ⚙️ The project uses:
+
+- [JavaScript Programming language](https://www.w3schools.com/js/)
+- [HTML](https://html.spec.whatwg.org/multipage/)
+- [CSS](https://www.w3.org/Style/CSS/Overview.en.html)
+- [jQuery library](https://jquery.com/)
+- [jQuery UI](http://jqueryui.com)
+- [SmartMenus jQuery Plugin](http://www.smartmenus.org/)
+- [jQuery Validation Plugin](https://github.com/jzaefferer/jquery-validation)
+- [Ajax technology](https://www.w3schools.com/jquery/jquery_ref_ajax.asp)
+- [Apache Tomcat](https://tomcat.apache.org/)
+- [Flickr API](https://www.flickr.com/services/developer/api/)
+
 ## 📚 Contents
 
 #### [First JavaScript program](https://github.com/DimaZeland/JavaScript/tree/master/01%20First%20programme)
